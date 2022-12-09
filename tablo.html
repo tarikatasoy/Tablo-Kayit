@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TABLO KAYIT</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+table, th {
+  border:1px solid black;
+  width: 55%;
+  margin-top: 20px;
+          }
+
+td {
+    border:1px solid black;
+    text-align: center;
+    
+   }
+
+    </style>
+
+</head>
+<body> 
+AD: <input type="text"    id="ad" class="input"> 
+SOYAD: <input type="text" id="soyad" class="input">
+TEL: <input type="text"   id="telno" class="input">
+<button id="ekle" onclick="tdekle()">KAYDET</button>
+
+
+<table id="tablo">
+    <tr>
+    <th>AD</th>
+    <th>SOYAD</th>
+    <th>TELEFON</th>
+    </tr>
+</table> 
+<script src='main.js'></script>
+</body>
+</html>
